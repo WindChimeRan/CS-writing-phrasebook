@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{semeval}
+Iris Hendrickx, Su~Nam Kim, Zornitsa Kozareva, Preslav Nakov, Diarmuid
+  {\'O}~S{\'e}aghdha, Sebastian Pad{\'o}, Marco Pennacchiotti, Lorenza Romano,
+  and Stan Szpakowicz.
+\newblock Semeval-2010 task 8: Multi-way classification of semantic relations
+  between pairs of nominals.
+\newblock In {\em Proceedings of the Workshop on Semantic Evaluations: Recent
+  Achievements and Future Directions}, pages 94--99. Association for
+  Computational Linguistics, 2009.
+
+\end{thebibliography}

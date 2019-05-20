@@ -120,17 +120,80 @@ phrases with common-noun heads. \cite{semeval}
   
   \item The best relation (presumably the easiest
   to classify) is CE, \textbf{far ahead of} ED and MC. \cite{semeval}
+
+  \item \textbf{As compared to} traditional GNNs, GPGNNs
+  could learn edges’ parameters from natural
+  languages, \textbf{extending it from performing} inferring
+  on only non-relational graphs or graphs with a limited
+  number of edge types \textbf{to} unstructured inputs
+  such as texts. \cite{GPGNN-RE}
+
+  \item Experiment results show that our
+  model \textbf{outperforms} other models \textbf{on} relation extraction
+  task \textbf{by considering} multi-hop relational
+  reasoning.\cite{GPGNN-RE}
+
   \end{enumerate}
 \section{Sentence-init}
 
 \begin{enumerate}
 \item \textbf{It speaks to the success of} the exercise that the participating systems’ performance was {generally high, well over an order of magnitude above} random guessing. \cite{semeval}
 \end{enumerate}
+
+\section{Linker}
+
+\begin{enumerate}
+  \item By explicitly reasoning about missing data during learning, our approach enables large-scale training of 1D convolutional neural networks
+  \textbf{while mitigating the issue of label noise inherent in distant supervision.} \cite{structured}
+\end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Sample table                                        %
 % Source: www1.maths.leeds.ac.uk/latex/TableHelp1.pdf %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Paragraphs}
+\section{Introduction}
+\begin{enumerate}
+
+\item GP-GNNs first constructs a fully connected
+      graph with the entities in the sequence
+      of text. After that, it employs three modules
+      to process relational reasoning: (1) an encoding
+      module which enables edges to encode rich information
+      from natural languages, (2) a propagation
+      module which propagates relational information
+      among various nodes, and (3) a classification
+      module which makes predictions with node representations. \cite{GPGNN-RE}
+\item 
+\end{enumerate}
+
+\section{Related Works}
+\begin{enumerate}
+  \item GNNs were first proposed in 2009\dots
+  Later the authors in Li et al. (2016) replace\dots
+  xxx propose to apply GNNs to xx, xx,\dots
+  There are relatively fewer papers
+  discussing how to adapt GNNs to natural
+  language tasks. For example\dots
+  Although they also consider applying GNNs to natural language processing
+  tasks, they still perform message-passing on
+  predefined graphs. Johnson (2017) introduces a
+  novel neural architecture to generate a graph based
+  on the textual input and dynamically update the
+  relationship during the learning process. In sharp
+  contrast, this paper focuses on extracting relations from real-world relation datasets. \cite{GPGNN-RE}
+
+  \item
+
+\end{enumerate}
+
+\section{Methodology}
+\begin{enumerate}
+  \item where $f(\cdot)$ could be any model that could encode
+  sequential data, such as LSTMs, GRUs, CNNs,
+  $E(\cdot)$ indicates an embedding function, and $\theta$ denotes
+  the parameters of the encoding module of
+  n-th layer. \cite{GPGNN-RE}
+\end{enumerate}
 \section{Concept}
 
 \bibliographystyle{plain}

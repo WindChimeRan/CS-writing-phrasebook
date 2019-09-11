@@ -178,7 +178,10 @@ phrases with common-noun heads. \cite{semeval}
   \textbf{problem}, \textbf{i.e., the extraction} of entities and relations
   \textbf{is transformed to the task of} identifying
   answer spans from the context. \cite{re_as_qa}
-  
+
+  \item \textbf{Encoding Layer}. The encoding layer aims to compose the input embeddings of a given instance into its corresponding instance embedding.   In this study, we choose two convolutional neural architectures, CNN (Zeng et al., 2014) and
+  PCNN (Zeng et al., 2015) to encode input em
+  beddings into instance embeddings. \textbf{Other neural architectures such as recurrent neural networks (Zhang and Wang, 2015) can also be used as sentence encoders. Because previous works show that both convolutional and recurrent architectures can achieve comparable state-of-the-art performance, we select convolutional architectures in this study. Note that, our model is independent of the encoder choices, and can, therefore, be easily adapted to fit other encoder architectures.} \cite{longtail_dsre}
 \end{enumerate}
 
 
